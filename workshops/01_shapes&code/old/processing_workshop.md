@@ -4,6 +4,10 @@
 3. Basic programming fundamentals in Processing
 4. How to google search and read documentation-->
 
+- add print and println
+- 
+
+
 # Processing Workshop 
 
 In this workshop we will be introduced to [Processing](https://processing.org) - a programming language and environment developed "to promote literacy within the visual arts and visual literacy within technology". Processing is used across a variety of communities but has had particular success within the art and design community (and data visualization community) for its strength in generating visual and interactive output. We will will use Processing to:
