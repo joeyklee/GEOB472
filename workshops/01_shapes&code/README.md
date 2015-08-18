@@ -307,7 +307,23 @@ Remember to use the *fill()* function to color the square blue.
 <!--* #### statement terminator:
 
 	The semi-colon ";" is used to define the end of a statement. In the exercise above, -->
+
+* #### Printing to the console:
+	The most basic way to get feedback from a computer is by "printing to the console." We can do this by using the *print()* or *println()* functions. The difference between *print()* and *println()* is that *print()* does not start a new line break after each function call. If this seems like a bunch of hogwash, try out the examples below :)
+	
+	*print()*
+	
+		print("Hello World");
+		print("My name is Joey");
+		print("It is raining outside");
 		
+	*println()*
+	
+		println("Hello World");
+		println("My name is Joey");
+		println("It is raining outside");
+	
+
 * #### functions
 
 	**Functions** allow you to draw shapes, set colors, calculate numbers, and to execute many other types of actions. A function’s name is usually a lowercase word followed by parentheses. The comma-separated elements between the parentheses are called **parameters**, and they affect the way the function works. Some functions have no parameters and others have many. This program demonstrates the size() and background() functions.cont.
