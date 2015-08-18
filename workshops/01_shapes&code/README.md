@@ -4,8 +4,6 @@
 3. Basic programming fundamentals in Processing
 4. How to google search and read documentation-->
 
-- add print and println
-- 
 
 
 # Processing Workshop 
@@ -27,7 +25,56 @@ We will use the concepts learned in this workshop throughout the rest of the cou
 
 ## Form & Code 
 
-[insert examples here]
+<img src="">
+<center>  ()</center>
+
+
+<img src="http://reas.com/path_p/reas_path_p_0.jpg">
+<center> Casey Reas,  Path, 2001 (http://reas.com/)</center>
+
+<img src="http://reas.com/mathematical_theory/reas_mathematical_theory_2.jpg">
+<center> Casey Reas, A Mathematical Theory of Communication (http://reas.com/)</center>
+
+<img src="http://benfry.com/deprocess/composite.png">
+<center>Ben Fry, Deprocess  (http://benfry.com/deprocess/)</center>
+
+<img src="http://www.chrispie.com/wp-content/2012/06/liquidata2cmyk-848x565.jpg">
+<center> Christopher Pietsch, Gunnar Friedrich, Pierre La Baume, David Ikuye and Luis Grass, LiquidData(http://www.chrispie.com/labs/liquidata-1151/)</center>
+
+
+<img src="http://users.design.ucla.edu/~akoblin/work/faa/ss/6.jpg">
+<center>Aaron Koblin's Flight Patterns (http://www.aaronkoblin.com/work/flightpatterns/)</center>
+
+<img src="http://senseable.mit.edu/nyte/images/01%20nyte%20-%20globe%20encounters.jpg">
+<center> MIT Senseable City Lab, New York Talk Exchange (http://senseable.mit.edu/nyte/)</center>
+
+
+<img src="http://www.creativeapplications.net/wp-content/uploads/2015/05/pixtil_03.jpg">
+<center> Delphine Saltet and Olivier Paradeise, Pixtil (http://www.creativeapplications.net/processing/pixtil-weaving-generative-patterns-using-traditional-textile-techniques/)</center>
+
+<img src="http://senseable.mit.edu/livesingapore/images/raining_taxis_lg.png">
+<center> MIT Senseable City Lab, Live! Singapore - Rain & Taxis (http://senseable.mit.edu/livesingapore/press.html)</center>
+
+
+<img src="http://www.looksgood.de/log/wp-content/uploads/2012/02/metrography_black_1.png">
+<center> Benedikt Groß, Metrography (http://benedikt-gross.de/log/2012/02/metrography-london-tube-map-to-large-scale-collective-mental-map/)</center>
+
+<img src="http://benedikt-gross.de/log/wp-content/uploads/2013/06/Avena_Field.png">
+<center>  Benedikt Groß, Avena Test Bed (http://benedikt-gross.de/log/2013/06/avena-test-bed_agricultural-printing-and-altered-landscapes/)</center>
+
+
+<img src="http://pmcruz.com/wp/wp-content/uploads/2011/02/hairy2.jpg">
+<center> Pedro Cruz, Lisbon's Blood Vessels (http://pmcruz.com/information-visualization/lisbons-blood-vessels)</center>
+
+<img src="https://farm8.staticflickr.com/7758/18210867280_9a2bc946c9_b.jpg">
+<center> P5 Contributor's Confernce  (http://p5js.org/contributors-conference/)</center>
+
+<img src="https://pbs.twimg.com/profile_images/54057404/Photo_14.jpg">
+<center> Dan Shiffman (http://shiffman.net/)</center>
+
+<img src="http://truth-and-beauty.net/content/01-projects/07-notabilia/02.png">
+<center> Moritz Stefaner, Notabilia (http://truth-and-beauty.net/projects/notabilia)</center>
+
 
 ***
 
@@ -1060,9 +1107,34 @@ The programs we’ve seen so far run each line of code in sequence. They run the
 
 ***
 ## Let's make our first program ("sketch")
-Using the shapes and properties we just learned, take 15 minutes to make a simple drawing. Use your i-m-a-g-i-n-a-t-i-o-n.   
+Using the shapes and properties we just learned, take some time to make a quick first sketch. Use your i-m-a-g-i-n-a-t-i-o-n.   
+
+
+
+As some motivation, here's what a few students have made at **NYU's ITP** during their first week learning Processing:
+
+<img src="">
+<center>  ()</center>
+
+
+
+<img src="http://yuji2015.net/itp/wp-content/uploads/2013/09/Screen-Shot-2013-09-09-at-10.06.24-PM.png">
+<center> Yu Ji, A miserable crab(http://yuji2015.net/itp/icm-01-a-miserable-crab/)</center>
+
+<img src="http://www.kristinabudelis.com/wp-content/uploads/2013/09/Screen-Shot-2013-09-10-at-10.39.48-PM.png
+">
+<center> Kristina Budelis, A programmed Cat (http://www.kristinabudelis.com/i-programmed-a-cat/)</center>
+
+<img src="http://www.whatthebagel.com/wp-content/uploads/2013/09/ICM_Week1_GeometricBloom.png">
+<center> Michelle Lin, Geometric Bloom (http://www.whatthebagel.com/2013/09/09/week-1-geometric-bloom/)</center>
+
+<img src="http://s5884.com/itp/files/2013/09/Assignment-1.png">
+<center> Seiya Kobayashi, Portrait (http://s5884.com/itp/2013/09/10/drawing-a-portrait-on-processing/)</center>
+
 
 (At the end, we'll all go around to see what we've all made)
+
+
 ***
 
 
@@ -1223,7 +1295,6 @@ http://p5js.org/tutorials/
 ## References
 
 "Programming Handbook for Visual Artists and Designers" by Casey Reas and Ben Fry
-
 
 "Getting Started with Processing" - Ben Fry
 
