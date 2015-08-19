@@ -25,8 +25,8 @@ We will use the concepts learned in this workshop throughout the rest of the cou
 
 ## Form & Code 
 
-<img src="">
-<center>  ()</center>
+<!--<img src="">
+<center>  ()</center>-->
 
 
 <img src="http://reas.com/path_p/reas_path_p_0.jpg">
@@ -46,7 +46,7 @@ We will use the concepts learned in this workshop throughout the rest of the cou
 <center>Aaron Koblin's Flight Patterns (http://www.aaronkoblin.com/work/flightpatterns/)</center>
 
 <img src="http://senseable.mit.edu/nyte/images/01%20nyte%20-%20globe%20encounters.jpg">
-<center> MIT Senseable City Lab, New York Talk Exchange (http://senseable.mit.edu/nyte/)</center>
+<center> MIT Senseable City Lab, New York Talk Exchange (http://senseable.mit.edu/nyte/), (https://www.youtube.com/watch?v=YXVM6ivpmyE)</center>
 
 
 <img src="http://www.creativeapplications.net/wp-content/uploads/2015/05/pixtil_03.jpg">
@@ -1128,10 +1128,10 @@ Using the shapes and properties we just learned, take some time to make a quick 
 
 
 As some motivation, here's what a few students have made at **NYU's ITP** during their first week learning Processing:
-
+<!--
 <img src="">
 <center>  ()</center>
-
+-->
 
 
 <img src="http://yuji2015.net/itp/wp-content/uploads/2013/09/Screen-Shot-2013-09-09-at-10.06.24-PM.png">
