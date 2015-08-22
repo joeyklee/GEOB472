@@ -29,6 +29,7 @@ We will use the concepts learned in this workshop throughout the rest of the cou
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+  - [WOW, we just learned a bunch! Do your brains hurt? Mine too. Let's take some time to let that settle and explore all this new knowledge! ](#wow-we-just-learned-a-bunch-do-your-brains-hurt-mine-too-lets-take-some-time-to-let-that-settle-and-explore-all-this-new-knowledge)
   - [S1. Form & Code](#s1-form-&-code)
   - [S2. Introduction to Processing](#s2-introduction-to-processing)
   - [S3. The Processing Environment](#s3-the-processing-environment)
@@ -43,12 +44,8 @@ We will use the concepts learned in this workshop throughout the rest of the cou
     - [S5.2.4 Draw a red triangle:](#s524-draw-a-red-triangle)
     - [S5.2.5: Draw a blue square:](#s525-draw-a-blue-square)
     - [S5.2.6: Now your code might looks like this:](#s526-now-your-code-might-looks-like-this)
-  - [CONGRATULATIONS, YOU JUST WROTE YOUR FIRST PROGRAM!!! ](#congratulations-you-just-wrote-your-first-program)
-  - [How do you feel? Empowered? Confused? Excited? ](#how-do-you-feel-empowered-confused-excited)
   - [S5.3: Now take 5 minutes to rearange the shapes, change the colors, and show your friends :)](#s53-now-take-5-minutes-to-rearange-the-shapes-change-the-colors-and-show-your-friends-)
     - [S5.3.0: Saving your work](#s530-saving-your-work)
-  - [Let's learn more! ](#lets-learn-more)
-  - [WOW, we just learned a bunch! Do your brains hurt? Mine too. Let's take some time to let that settle and explore all this new knowledge! ](#wow-we-just-learned-a-bunch-do-your-brains-hurt-mine-too-lets-take-some-time-to-let-that-settle-and-explore-all-this-new-knowledge)
 - [S6: Fundamentals](#s6-fundamentals)
   - [S6.1: Structure](#s61-structure)
     - [S6.1.1: comments](#s611-comments)
@@ -368,7 +365,7 @@ rect(525, 200, 100, 100);
 -->
 
 ![](assets/img/processing_intro_001.png)
-<center> <h2>CONGRATULATIONS, YOU JUST WROTE YOUR FIRST PROGRAM!!! </h2> </center>
+<center> <em>CONGRATULATIONS, YOU JUST WROTE YOUR FIRST PROGRAM!!! </em> </center>
 
 ##S5.3: Now take 5 minutes to rearange the shapes, change the colors, and show your friends :)
 
@@ -385,9 +382,9 @@ When you're programming, saving your work is super important. Let's save our fir
 You'll notice when you  save your "sketch" the file type will be added to the end of whatever you called your progam. So if you named your project "myFirstSketch", you will see in your folder "myFirstSketch.pde". The ".pde" is the processing file type (similar to when you see a .csv or .py or .r or .xls, etc etc). 
 
 
-<center> <h2>How do you feel? Empowered? Confused? Excited? </h2> </center>
+<center> <em>How do you feel? Empowered? Confused? Excited? </em> </center>
 
-<center> <h2>Let's learn more! </h2> </center>
+<center> <em>Let's learn more! </em> </center>
 
 <br>
 ***
@@ -783,7 +780,7 @@ we can also write the above as:
 
 Why would we declare the variable first then assign it later? This becomes important when we start to get into a thing called "variable scope" and learn more about local and global variables in a program. For now, choose whichever one makes most sense to you. 
 	
-
+***
 ###S7.1.2: float
 
 Floating-point numbers have a decimal point for creating fractions of whole numbers such as 12.8, -120.75, 8.125, and 934.82736. 
@@ -819,7 +816,7 @@ This may not seem that exciting right now, but this is the fundamental concept u
 	* do geoprocessing: make buffers, perform intersections and spatial joins, make raster calculations
 	* make visualizations with graphs
 -->
-
+***
 ##S7.2: data type: Boolean
 
 **boolean**
@@ -834,12 +831,12 @@ The simplest data element in Processing is a boolean variable. Variables of this
 	
 
 These data types are super exciting and great, but for now, just know that they exist... we can revist them later :)
-
+***
 ##S7.3: data type: String
 
 	**String**
 
-
+***
 ##S7.4: data type: Color
 
 	**color**
