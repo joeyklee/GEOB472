@@ -25,162 +25,90 @@ We will use the concepts learned in this workshop throughout the rest of the cou
 
 ## index
 
-* [index](## index)
-
-* [S1. Form & Code ](##S1. Form & Code )
-
-* [S2. Introduction to Processing](## S2. Introduction to Processing)
-
-* [S3. The Processing Environment](## S3. The Processing Environment)
-
-* [The Text Editor & Display Window](### The Text Editor & Display Window)
-
-* [S4. The Community](## S4. The Community)
-
-* [S5. Getting Started](# S5. Getting Started)
-
-	* [S5.1: Make a set of instructions on how to draw a circle, triangle, and square ](## S5.1: Make a set of * instructions on how to draw a circle, triangle, and square )
-
-	* [S5.2: Translate your instructions into code](##S5.2: Translate your instructions into code)
-
-		* [S5.2.1 First: we need a canvas - something to draw on. ](###S5.2.1 First: we need a canvas - something to draw on. )
-
-		* [S5.2.2 Second: select the color of your canvas](###S5.2.2 Second: select the color of your canvas)
-
-		* [S5.2.3 Draw a green circle:](###S5.2.3 Draw a green circle:)
-
-		* [S5.2.4 Draw a red triangle:](###S5.2.4 Draw a red triangle:)
-
-		* [S5.2.5: Draw a blue square:](###S5.2.5: Draw a blue square:)
-
-		* [S5.2.6: Now your code might looks like this:](###S5.2.6: Now your code might looks like this:)
-
-	* [S5.3: Now take 5 minutes to rearange the shapes, change the colors, and show ](##S5.3: Now take 5 minutes to * rearange the shapes, change the colors, and show )
-
-		* [S5.3.0: Saving your work](###S5.3.0: Saving your work)
-
-* [S6: Fundamentals](#S6: Fundamentals)
-
-	* [S6.1: Structure](##S6.1: Structure)
-
-	* [S6.1.1: comments](###S6.1.1: comments)
-
-		* [S6.1.2: Printing to the console:](### S6.1.2: Printing to the console:)
-
-		* [S6.1.3: functions](### S6.1.3: functions)
-
-		* [S6.1.4: expressions & statements:](### S6.1.4: expressions & statements:)
-
-* [S6.2: Shape](## S6.2: Shape)
-
-	* [S6.2.1: coordinates](### S6.2.1: coordinates)
-
-	* [S6.2.2: primitives](### S6.2.2: primitives)
-
-	* [S6.2.3: properties](### S6.2.3: properties)
-
-	* [Basic Color properties](#### Basic Color properties)
-
-	* [Basic Stroke Properties](#### Basic Stroke Properties)
-
-	* [S6.2.4: custom shapes](### S6.2.4: custom shapes)
-
-* [S7: Data & Variables](# S7: Data & Variables)
-
-	* [S7.1: data type: Numeric](## S7.1: data type: Numeric)
-
-		* [S7.1.1: int](###S7.1.1: int)
-
-		* [S7.1.2: float](###S7.1.2: float)
-
-	* [S7.2: data type: Boolean](##S7.2: data type: Boolean)
-
-	* [S7.3: data type: String](##S7.3: data type: String)
-
-	* [S7.4: data type: Color](##S7.4: data type: Color)
-
-* [S8: Math](#S8: Math)
-
-	* [S8.1: arithmetic & functions](##S8.1: arithmetic & functions)
-
-		* [S8.1.1: Add](###S8.1.1: Add)
-
-		* [S8.1.2:subtract](###S8.1.2:subtract)
-
-		* [S8.1.3:multiply](###S8.1.3:multiply)
-
-	* [S8.1.4: divide](###S8.1.4: divide)
-
-	* [S8.1.5: modulo](###S8.1.5: modulo)
-
-	* [S8.1.6: parentheses](###S8.1.6: parentheses)
-
-	* [S8.1.7: increment](###S8.1.7: increment)
-
-	* [S8.1.8: decrement](###S8.1.8: decrement)
-
-	* [s8.1.9: += (add assign), -= (subtract assign), *= (multiply assign), /= (](###s8.1.9: += (add assign), -= (subtract * assign), *= (multiply assign), /= ()
-
-	* [s8.1.10: ceil()](###s8.1.10: ceil())
-
-	* [s8.1.10: floor()](###s8.1.10: floor())
-
-	* [s8.1.11: round()](###s8.1.11: round())
-
-	* [s8.1.12: min(), max()](###s8.1.12: min(), max())
-
-* [S9: Control](#S9: Control)
-
-	* [S9.1 conditionals & decision making](##S9.1 conditionals & decision making)
-
-		* [S9.1.1:Relational Expressions](###S9.1.1:Relational Expressions)
-
-	* [S9.2: Conditionals: if/else/else if statements ](##S9.2: Conditionals: if/else/else if statements )
-
-		* [S9.2.1: A simple if statement](##S9.2.1: A simple if statement)
-
-		* [S9.2.2:A simple if/else statement](##S9.2.2:A simple if/else statement)
-
-		* [S9.2.3:if/else if/ else](##S9.2.3:if/else if/ else)
-
-		* [S9.2.4:Logical Operators ](##S9.2.4:Logical Operators )
-
-	* [S9.3:repitition](##S9.3:repitition)
-
-		* [S9.3.1:The for loop](##S9.3.1:The for loop)
-
-* [S10: The setup() and draw() functions](#S10: The setup() and draw() functions)
-
-	* [S10.1:Random fill ellipse](##S10.1:Random fill ellipse)
-
-	* [S10.2.1:Enter the Mouse](##S10.2.1:Enter the Mouse)
-
-	* [S10.2.1:Enter the Mouse and resetting background](##S10.2.1:Enter the Mouse and resetting background)
-
-	* [S10.2.1: Visualizing the speed of the mouse](##S10.2.1: Visualizing the speed of the mouse)
-
-	* [S10.5:A simple animation](##S10.5:A simple animation)
-
-	* [S10.4:A simple animation - a bounce back](##S10.4:A simple animation - a bounce back)
-
-* [Let's make our first program ("sketch")](## Let's make our first program ("sketch"))
-
-* [Recap & Future Directions:](## Recap & Future Directions:)
-
-* [What we learned today](### What we learned today)
-
-* [Future Directions](### Future Directions)
-
-* [Endless learning](#### Endless learning)
-
-* [P5.js](#### P5.js)
-
-* [Web Searching ](## Web Searching )
-
-* [References](## References)
-
-* [Resources](## Resources)
-
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+  - [S1. Form & Code](#s1-form-&-code)
+  - [S2. Introduction to Processing](#s2-introduction-to-processing)
+  - [S3. The Processing Environment](#s3-the-processing-environment)
+    - [The Text Editor & Display Window](#the-text-editor-&-display-window)
+  - [S4. The Community](#s4-the-community)
+- [S5. Getting Started](#s5-getting-started)
+  - [S5.1: Make a set of instructions on how to draw a circle, triangle, and square on a piece of paper.](#s51-make-a-set-of-instructions-on-how-to-draw-a-circle-triangle-and-square-on-a-piece-of-paper)
+  - [S5.2: Translate your instructions into code](#s52-translate-your-instructions-into-code)
+    - [S5.2.1 First: we need a canvas - something to draw on.](#s521-first-we-need-a-canvas---something-to-draw-on)
+    - [S5.2.2 Second: select the color of your canvas](#s522-second-select-the-color-of-your-canvas)
+    - [S5.2.3 Draw a green circle:](#s523-draw-a-green-circle)
+    - [S5.2.4 Draw a red triangle:](#s524-draw-a-red-triangle)
+    - [S5.2.5: Draw a blue square:](#s525-draw-a-blue-square)
+    - [S5.2.6: Now your code might looks like this:](#s526-now-your-code-might-looks-like-this)
+  - [CONGRATULATIONS, YOU JUST WROTE YOUR FIRST PROGRAM!!! ](#congratulations-you-just-wrote-your-first-program)
+  - [How do you feel? Empowered? Confused? Excited? ](#how-do-you-feel-empowered-confused-excited)
+  - [S5.3: Now take 5 minutes to rearange the shapes, change the colors, and show your friends :)](#s53-now-take-5-minutes-to-rearange-the-shapes-change-the-colors-and-show-your-friends-)
+    - [S5.3.0: Saving your work](#s530-saving-your-work)
+  - [Let's learn more! ](#lets-learn-more)
+  - [WOW, we just learned a bunch! Do your brains hurt? Mine too. Let's take some time to let that settle and explore all this new knowledge! ](#wow-we-just-learned-a-bunch-do-your-brains-hurt-mine-too-lets-take-some-time-to-let-that-settle-and-explore-all-this-new-knowledge)
+- [S6: Fundamentals](#s6-fundamentals)
+  - [S6.1: Structure](#s61-structure)
+    - [S6.1.1: comments](#s611-comments)
+    - [S6.1.2: Printing to the console:](#s612-printing-to-the-console)
+    - [S6.1.3: functions](#s613-functions)
+    - [S6.1.4: expressions & statements:](#s614-expressions-&-statements)
+  - [S6.2: Shape](#s62-shape)
+    - [S6.2.1: coordinates](#s621-coordinates)
+    - [S6.2.2: primitives](#s622-primitives)
+    - [S6.2.3: properties](#s623-properties)
+      - [Basic Color properties](#basic-color-properties)
+      - [Basic Stroke Properties](#basic-stroke-properties)
+    - [S6.2.4: custom shapes](#s624-custom-shapes)
+- [S7: Data & Variables](#s7-data-&-variables)
+  - [S7.1: data type: Numeric](#s71-data-type-numeric)
+    - [S7.1.1: int](#s711-int)
+    - [S7.1.2: float](#s712-float)
+  - [S7.2: data type: Boolean](#s72-data-type-boolean)
+  - [S7.3: data type: String](#s73-data-type-string)
+  - [S7.4: data type: Color](#s74-data-type-color)
+- [S8: Math](#s8-math)
+  - [S8.1: arithmetic & functions](#s81-arithmetic-&-functions)
+    - [S8.1.1: Add](#s811-add)
+    - [S8.1.2:subtract](#s812subtract)
+    - [S8.1.3:multiply](#s813multiply)
+    - [S8.1.4: divide](#s814-divide)
+    - [S8.1.5: modulo](#s815-modulo)
+    - [S8.1.6: parentheses](#s816-parentheses)
+    - [S8.1.7: increment](#s817-increment)
+    - [S8.1.8: decrement](#s818-decrement)
+    - [s8.1.9: += (add assign), -= (subtract assign), *= (multiply assign), /= (divide assign)](#s819--add-assign---subtract-assign--multiply-assign--divide-assign)
+    - [s8.1.10: ceil()](#s8110-ceil)
+    - [s8.1.10: floor()](#s8110-floor)
+    - [s8.1.11: round()](#s8111-round)
+    - [s8.1.12: min(), max()](#s8112-min-max)
+- [S9: Control](#s9-control)
+  - [S9.1 conditionals & decision making](#s91-conditionals-&-decision-making)
+    - [S9.1.1:Relational Expressions](#s911relational-expressions)
+  - [S9.2.3:if/else if/ else](#s923ifelse-if-else)
+  - [S9.2.4:Logical Operators](#s924logical-operators)
+  - [S9.3:repitition](#s93repitition)
+  - [S9.3.1:The for loop](#s931the-for-loop)
+- [S10: The setup() and draw() functions](#s10-the-setup-and-draw-functions)
+  - [S10.1:Random fill ellipse](#s101random-fill-ellipse)
+  - [S10.2.1:Enter the Mouse](#s1021enter-the-mouse)
+  - [S10.2.1:Enter the Mouse and resetting background](#s1021enter-the-mouse-and-resetting-background)
+  - [S10.2.1: Visualizing the speed of the mouse](#s1021-visualizing-the-speed-of-the-mouse)
+  - [S10.5:A simple animation](#s105a-simple-animation)
+  - [S10.4:A simple animation - a bounce back](#s104a-simple-animation---a-bounce-back)
+  - [Let's make our first program ("sketch")](#lets-make-our-first-program-sketch)
+- [Recap & Future Directions:](#recap-&-future-directions)
+  - [What we learned today](#what-we-learned-today)
+- [Future Directions](#future-directions)
+  - [Endless learning](#endless-learning)
+  - [P5.js](#p5js)
+- [Web Searching](#web-searching)
+- [References](#references)
+- [Resources](#resources)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ##S1. Form & Code 
 
@@ -1617,8 +1545,8 @@ As some motivation, here's what a few students have made at **NYU's ITP** during
 ***
 
 
-## Recap & Future Directions:
-### What we learned today
+# Recap & Future Directions:
+## What we learned today
 
 * The fundamentals of programming in Processing - and programming in general. We covered:
 	* Processing's primitive shapes & how to make some of our own.
@@ -1643,9 +1571,9 @@ As some motivation, here's what a few students have made at **NYU's ITP** during
 		* and the list goes on and on... :)
 
 
-### Future Directions
+# Future Directions
 
-#### Endless learning
+## Endless learning
 There's so much more to learn and so much cool stuff we haven't yet done with data! Throughout the course I hope you can reference back to this workshop as you learn more about Processing and as a way to help you understand some of the other tools we will be using like R or Mapbox Studio, and others. 
 
 With what you've learned today, you're not so far off from learning how to start visualizing data in Processing. With some practice and perseverence you'll, I hope you can start making things like this:
@@ -1656,8 +1584,8 @@ or this (using the Unfolding Library):
 
 ![](assets/img/Unfolding-example-01.png)
 
-#### P5.js
-I have to mention P5.js which is the javascript version of Processing not only because it is super cool, but because I, along with many others, believe the age of the web is here!  P5.js is a javascript library that takes the soul of Processing and implements it in javascript meaning that you can sketch with code using web technologies (html, css, & javascript). I would argue that the syntax is friendlier and is more flexible in terms of sharing your work. Besides the fact that the browser can crash if you send it a ton of data, P5.js may be an interesting way to move out of your desktop and onto the web.
+## P5.js
+I have to mention P5.js which is the javascript library inspired by Processing not only because it is super cool, but because I, along with many others, believe the age of the web is here!  P5.js is a javascript library that takes the soul of Processing and implements it in javascript meaning that you can sketch with code using web technologies (html, css, & javascript). I would argue that the syntax is friendlier and is more flexible in terms of sharing your work. Besides the fact that the browser can crash if you send it a ton of data, P5.js may be an interesting way to move out of your desktop and onto the web.
 
 *NOTE: I decided not to teach P5.js since I thought introducing html, css, and javascript would be maybe too much for the first class. Please let me know if you have other thoughts!
 
@@ -1670,18 +1598,18 @@ P5.js tutorials:
 http://p5js.org/tutorials/
 
 
-## Web Searching 
+# Web Searching 
 "Programming is just about how good you are at google searching."
 
-## References
+# References
 
-"Programming Handbook for Visual Artists and Designers" by Casey Reas and Ben Fry
+"Processing, A Programming Handbook for Visual Artists and Designers" by Casey Reas and Ben Fry
 
 "Getting Started with Processing" - Ben Fry
 
 "Learning Processing" - Dan Shiffman
 
-## Resources
+# Resources
 
 Learning Processing With Dan Shiffman - this dude is handsdown the best guy ever. 
 
