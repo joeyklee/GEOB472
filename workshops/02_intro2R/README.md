@@ -905,7 +905,8 @@ Ok, cool, so now let's **subset** out "classes" of crimes. In this case, let's w
 2. Auto Related Theft
 3. Mischief Related Crime
 
- To do this, we can use the *subset()* function. 
+
+To do this, we can use the *subset()* function. 
 
 	# subset crimes that are "Mischief Over $5000" or "Mischief Under $5000".
 	mischief = subset(crime, crime$TYPE == "Mischief Over $5000" | crime$TYPE == "Mischief Under $5000")
