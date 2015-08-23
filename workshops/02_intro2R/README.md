@@ -7,8 +7,7 @@ This is an intro to the R programming language which we will use throughout the 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-
-    - [Getting Comfy:](#getting-comfy)
+   - [Getting Comfy:](#getting-comfy)
   - [S1: Why are we learning R?](#s1-why-are-we-learning-r)
   - [S2: Requirements:](#s2-requirements)
 - [S3 Getting Started](#s3-getting-started)
@@ -50,7 +49,7 @@ This is an intro to the R programming language which we will use throughout the 
 
 
 <!--
-### Getting Comfy:
+Getting Comfy:
 1. R ( and computer languages in general) are like more awesome calculators:
 	+ basic math operations between single numbers
 	+ enter: Print & Plot
@@ -137,9 +136,9 @@ Cool! So now you know how to make comments in R. These will be handy to remind y
 
 ##S4.3:Printing
 
-The first thing we're going to do is print the classic "hello world!" statement from our **script** window. To practice using comments, let's first make a comment saying, "here's my first conversation with R"
+The first thing we're going to do is print the classic "hello world!" statement from our **script** window. To practice using comments, let's first make a comment saying, "let's print to the console with R"
 
-	### --- here's my first conversation with R --- ###
+	### --- let's print to the console with R --- ###
 
 Whoa! What the heck, why are there 3 "#'s" and all that other stuff, aren't we just making a comment? Yes, technically, we could just use 1 "#" and that would be enough but by adding more, we can help add clarity to each section. Remember, anything after the first comment (#) is not evaluated by the computer so we could really put whatever we want after it...Throughout the workshop, play with other ways of helping to make your comments more distinct.
 
@@ -203,15 +202,17 @@ Run each of these statements in your script window and see what pops up in the c
 	# here's an example of addition
 	3 + 5  
 
+Experiment: Run you own addition calculation - try adding a bunch of numbers together in a row like "5 + 3 + 10+ 30"...
+***
 ###S5.1.3: Substraction
 
 	# Simple subtraction
 	145632 - 67424
 
-Why the big numbers? well, just to show you how easy it is for the computer to calculate these numbers!
 
 You should be seeing the console output :)
 
+***
 ###S5.1.4: Multiplication
 
 	# Fancy Multiplication
@@ -223,6 +224,8 @@ You should be seeing the console output :)
 	# and even more fancy multiplication
 	(5 * 2) * 3 * 6
 
+Experiment: Write your own mathematical expression using multiplication
+***
 ###S5.1.5:Division
 
 	# Simple Division
@@ -231,6 +234,8 @@ You should be seeing the console output :)
 	# More Division
 	50 / (3/4)
 
+
+***
 ###S5.1.6:Exponentation
 
 	# An exponent: method 1
@@ -240,8 +245,12 @@ You should be seeing the console output :)
 	10^2
 
 
+
+Experiment: Write two of your own examples using the two different methods of exponentation.
+
 Now you know the rest. Let's try some of the logical operators.
 
+***
 ##S5.2:Logical Operators in R
 
 	Operator		Description
@@ -260,6 +269,7 @@ Again, let's make a comment showing this new section:
 
 	# ---------- Logical Operators in R ---------- #
 
+***
 ###S5.2.1: Greater than 
 	
 	# greater than 
@@ -268,8 +278,11 @@ Again, let's make a comment showing this new section:
 	# greater than
 	3 > 10
 
-Oooh, see how the console prints TRUE or FALSE? This is a good sign! 
 
+Experiment: Write your own logical expression and see what it evaluates to.
+
+Oooh, see how the console prints TRUE or FALSE? This is a good sign! 
+***
 ###S5.2.2:Less than 
 
 	# less than
@@ -278,6 +291,7 @@ Oooh, see how the console prints TRUE or FALSE? This is a good sign!
 	# less than
 	10 < 3
 
+***
 ###S5.2.3: Is equal to
 
 	# is equal to
@@ -286,6 +300,7 @@ Oooh, see how the console prints TRUE or FALSE? This is a good sign!
 	# is equal to
 	5 == 6
 
+***
 ###S5.2.4:does not equal
 
 	# is not equal to
@@ -296,6 +311,7 @@ Oooh, see how the console prints TRUE or FALSE? This is a good sign!
 
 Ok ok, so we get the idea, we've seen this all before. How about getting into some variables? Ain't no thang. Let's do this!
 
+***
 #S6: Variables
 
 So we know how powerful variables are for programming. Let's check out how R handles variables. As always, let's start with an example.
@@ -317,6 +333,7 @@ If you got 9, then you're totally crushing this tutorial! **NOTICE: we don't hav
 
 Let's look at another example. Remember the example of Joey's enthusiasm from the Processing workshop? Here's the same thing but in R.
 
+***
 ###S6.2: Multiplication
 
 	# ---------- Working with Variables: Multiplication ---------- #
@@ -331,6 +348,10 @@ So you may have noticed in your **Global Environment** a few things have popped 
 
 ![](assets/img/globalenv-1.png)
 
+***
+
+Experiment: Using a set of variables, write your own example of storing values to variables and use some of the mathematical operators to do some calculations. Play with changing the values to the variables to see how changing one of two of your variables changes the result of your calculation in the end.
+
 #S7 Data & Plotting
 
 Ok, so here's where things are going to get *very* interesting for us. Enter: data & plotting. In the Processing workshop we learned that "data could be anything from the time of day, the location of a bus stop, the color of your hair, and even the location of your mouse on the screen and the keys you pressed to login to your email. In general, data often consists of measurements of physical characteristics whether it be a digital photo of your dog or the precipitation in Vancouver." 
@@ -341,10 +362,12 @@ If you haven't noticed by now, soon you will see that one of the keys to underst
 
 Blah blah blah, Let's start from the beginning. Oh and stay with me, because we're going to introduce the *plot()* function so you can start visualizing your data! 
 
+***
 ##S7.1 Vectors
 
-Here's the bread and butter of R programming and data handling - the vector. An R vector is basically a collection of elements of the same datatype (e.g  numeric, character, boolean.)
+Here's the bread and butter of R programming and data handling - the vector. A R vector is basically a collection of elements of the same datatype (e.g  numeric, character, boolean.)
 
+###S7.1.1: Our first vector
 To create a vector we use the *c()* function and add the elements as parameters to the function:
 
 	# ---------- Data: Vectors ---------- #
@@ -355,14 +378,16 @@ To create a vector we use the *c()* function and add the elements as parameters 
 	# here's our first vector of floats
 	ourFirstFloatVector = c(1.01, 2.04, 3.30, 4.0, 5.0, 6.30, 7.50, 8.0 ,9.0, 10.0)
 	ourFirstFloatVector
-	
+
+Experiment: make 2 vectors one with numeric type data and one with strings and store each to a unique variable. Each vector should have 5 items.
+***
 we can also give each element in the vector a name. There are two ways to do this:
 
-	# naming  vector elements:
+	# naming  vector elements while creating the vector:
 	ourFirstNamedVector = c(vancouver = 1, toronto = 2, montreal=3, whistler=5)
 	ourFirstNamedVector
 	
-	# naming vector elements with the names() function
+	# naming vector elements with the names() function after making the vector
 	ourSecondNamedVector = c(1,2,3,4,5)
 	names(ourSecondNamedVector) = c("vancouver", "toronto", "montreal", "whistler", "chicago" )
 	ourSecondNamedVector
@@ -380,9 +405,12 @@ Let's just break this down in plain english:
 * we have a vector of numbers called <font color="orange">ourSecondNamedVector</font>
 * set the <font color="purple">names()</font> of <font color="orange">ourSecondNamedVector</font> equal to "vancouver", "toronto", "montreal", "whistler", "chicago" in this order.
 
+
+Experiment: Make 1 vector of numeric data and name each of the items in the vector. Try to come up with a real world example.
 If this doesn't make complete sense, it will in a minute. Just hold tight!
 
-**Accessing data by their index** or by their **name**:
+***
+###S7.1.2: Accessing data by their index or by their name:
 
 We can caccess individual data elements or subsets of elements from a vector either with two methods:
 
@@ -404,6 +432,8 @@ Look in the **global environment** notice our variables have been added with the
 
 ![](assets/img/globalvectors.png)
 
+***
+###S7.1.3: Vectors all have the same datatype
 Let's make a list of strings:
 
 	# here's our first vector of strings
@@ -418,6 +448,8 @@ But what happens if we try to fool R by mixing numeric and string types like thi
 
 Notice that the console output is: "1"    "2"    "3"    "joey" "is"   "a"    "dork". Because **a vector must all be the same type of data**, R automatically converts the numeric elements to the character strings so they match with those other strings like "joey", "is", "a", and "dork". 
 
+***
+###S7.1.4: Vectors are recursive
 SO we know that **vectors mus all be the same type of data**. Very good! Why is this important? Well, vectors are what we call "recursive", meaning that we can apply a function or a mathematical operator on the vector and it will **apply to every element** in the vector. You're probably thinking, "is that even english?" Let's look an example of why vectors are awesome and think about why this could be useful for data handling.
 
 	# ---------- Vectors: understanding what makes them "recursive" ---------- #
@@ -429,6 +461,8 @@ SO we know that **vectors mus all be the same type of data**. Very good! Why is 
 
 Whaaaat. Every element was multiplied by 3. Why is this super cool? Because in many other languages and/or situations, we would need to write a loop to apply this to each value in collection of elements. Because R is structured to optimally work with data in collections like this, having recursive data objects makes sense!
 
+***
+###S7.1.5: Plotting our first vector
 Ok cool, so hopefully that is sort of starting make sense, so let's keep going and see where this takes us.
 	
 	# now let's assign a new variable with the product of ourFirstFloatVector and 3
@@ -483,7 +517,8 @@ At the most fundamental level what is *plot()* doing here? well it is:
 
 Remember in Processing we would draw points and ellipses by specifying coordinates on the cavas? Same idea here! 
 
-
+***
+###S7.1.6: Plotting our first "real world" example
 We will get into more vector operations later but just while we're here, let's just try a few more:
 
 	# ---------- Vectors: understanding what makes them "recursive" - part 2 ---------- #	
@@ -512,10 +547,21 @@ Whoa, pretty nuts. What did we just do in 6 lines of code?
 
 Again, the plots are basic looking now, but we're just getting fired up. Also, does anyone else think that maybe a line chart or a bar graph might be more appropriate here??? If so, you're in luck because we will soon learn how to make those too! 
 
+###S7.1.7: Plotting our second "real world" example
+Experiment: Before we move on, write an example in which you need to:
+
+* use this map of 311 maintenance requests in vancouver 
+* create two vectors: 1. the names of the neighborhoods (aka "region") & 2. the number of calls (aka "case calls")
+* plot the number of calls per neighborhood
+* plot the average call number per district
+* (NOTE: think about what other data migh be useful for us if we needed to normalize the data to make a fair comparison between the neighborhoods. Why might it not be fair to directly compare the number of phone calls from the west end versus point grey? These are the sorts of things you should be thinking about when doing data visualization to start telling a "truer" picture of what's going on...)
+
 But first, let's learn about the other R data types.
-	
+
+***
 ##S7.2: Lists
 
+###S7.2.1: Our first R List
 So an R list is a collection of elements (similar to a vector) BUT the key difference is that **a list can contain different data types**. Lists can be created by using the *list()* function and filling in values to be stored in the list. Let's look at some examples here:
 
 	# -------- Lists in R: a list with no keys ---------- #
@@ -554,6 +600,10 @@ The console will print out this:
 
 Cool so we see that our keys - apples, instagramFollowers, facebookLikes, supermarket, and vegetables - are paired with values - 10, 5, 100, TRUE, and "delicious". 
 
+Experiment: Make your own list with related variables that might make sense to store together in a variable. Think about the things that might make sense to be stored together like the ingredients for a recipe and the amount necessary to make your favorite banana bread with chocolate chips ;)
+
+***
+###S7.2.2: Accessing data in a list
 So let's say we just wanted to know how many instagramFollowers we have. We can use R's dollar sign data selector "$" to specify which data object to return, in this case "instagramFollowers".
 
 	# ---------- accessing data objects in a list ---------- #
@@ -569,17 +619,17 @@ So why use Lists versus vectors? Well, each has different uses, but one reason m
 	Ellie:
 		Handle: @smellyEllie
 		Posts: 134
-		location: Vancouver, BC
+		location: Vancouver, CA
 		Description: "Maps are my lyfe"
 	Joey:
 		Handle: @leejoeyk
 		Posts: 365
-		Location: Vancouver, BC
+		Location: San Francisco, USA
 		Description: "Struggling Artist"
 	Sally:
 		Handle: @sallyseashore
 		Posts: 15
-		Location: Vancouver, BC
+		Location: London, UK
 		Description: "Loving Maps since day 1"
 
 We can see that there is a list of names - Ellie, Joey, and Sally - each with a list of properties describing it - Handle, Posts, Location, and Description. How can we make this list in R?
@@ -671,14 +721,29 @@ Cool so it prints out exactly what we would expect. **NOTICE** the use of the da
 
 Starting to see why it might be useful to pass data along variables? It may not be super clear now, but try to think about how you process geographic data. Often times, you might want to just take a subset of data by location or by the name of the city or census tract. By using the data selector and storing pieces of data to a new variable, you can only work on the pieces of data you want while preserving the original data!
 
+###S7.2.3: making our own list of lists
+Experiment: Come up with a "list of lists" of the songs and their duration from your favorite album. 
 
+* for example: if my favorite album right now is "Reality" by the band "Real Estate" my list of lists might look like this:
+
+		realEstate = list( 
+			reality = list(
+				motorbikes = "02:11",
+				basement = "05:12",
+				drum = "02:38"
+			)
+		)
+
+	* realEstate is the band, reality is one of their albums, and within the album, there are these songs and they are this long...
+
+***
 ##S7.3 Dataframes
 
 A dataframe is essentially data in a tabular form (think an excel spreadsheet) - it is composed of rows and columns of equal length. Each column is a **vector**, meaning it contains all of the same data type (except for the header row) and is recursive, meaning that we can apply functions and mathematical operations on each column.  **Holy guacamole, does this mean R is really great at processing tabular data like excel sheets, csv files, and maybe even shapefiles? Yes!** That is exactly right! Let's learn about them!!
 
 In this section we'll first make our own dataframe and then **learn how to read in data from an external file**. Hold on to your socks friends, its going to get SO super cool.
 
-
+###S7.3.1: Our first Dataframe
 ** Our first dataframe**
 In this example we'll explore the different elements of a dataframe and why it is super handy for the kind of data we generally work with.
 
@@ -731,7 +796,19 @@ If you click on the little icon that looks like a data table, you will get a pre
 		# use the plot() function on the data you selected:
 		plot(fruitBasket$fruits, fruitBasket$quantityEaten)
 
-Nice! We just plotted our data directly pulled from our dataframe! Feeling the love yet? If yes, then get ready for more, if not, then let's try a **real-world data** example.
+
+Nice! We just plotted our data directly pulled from our dataframe! 
+***
+###S7.3.2: making/Plotting our first Dataframe
+Experiment: 
+
+* Make your own dataframe. 
+* The dataframe should include at least 3 vectors ("columns"). 
+* Plot two of the columns.
+
+***
+
+Feeling the love yet? If yes, then get ready for more, if not, then let's try a **real-world data** example.
 
 ##S7.4 Reading data in as a dataframe
 
@@ -764,6 +841,7 @@ Whoa, we've got 5 different options and a whole slew of parameters we can use to
 
 ##S7.5 Exploring Vancouver Crime Data
 
+###S7.5.1: Reading the crime data
 In this example we're going to read in some data and plot the location of the different crimes.
 
 	# ----------- Reading in Data from a csv ---------- #
@@ -777,6 +855,8 @@ In this example we're going to read in some data and plot the location of the di
 
 Nice! R understands us! We took our longitude and latitude of the crimes and plotted them! This looks like Vancouver :) Our first geo-ish visualization! Let's dive into some more of the plotting capabilities.
 
+***
+###S7.5.2: the unique() function
 Right now our plot has a bunch of empty circles visualizing all of the crimes. Let's see what types of crimes have been committed. We can take advantage of the recursive nature of the dataframe to calculate the **unique types of crime** in our data. We can do so by using the *unique()* function.
 
 	# For all of the records in crime$TYPE, give me the unqiue ones.
@@ -789,6 +869,8 @@ The console will return:
 	[4] Mischief Under $5000        Theft Of Auto Under $5000   Theft From Auto Over  $5000
 	[7] Mischief Over $5000 
 
+***
+###S7.5.3: Subsetting data
 Ok, cool, so now let's **subset** out "classes" of crimes. In this case, let's we can see that there are 3 major classes of crimes:
 
 1. Commercial Break & Enter
@@ -816,7 +898,8 @@ mischief = <font color="red">subset(</font> <font color="green">crime </font>, <
 
 <!--![](assets/img/subsetting.png)-->
 
-
+***
+###S7.5.4: Plotting the different crimes
 Now that we've subset all the different crimes, let's plot them to see where they are:
 
 	# First set the canvas by plotting of the three classes of crimes. In this case, let's first use the auto crimes and color them red.
@@ -835,6 +918,8 @@ So why do we have 1 *plot()* function and then two *points()* functions? So the 
 2. call the *points()* function to **add points to the plot**
 3. (similarly if we wanted to add lines, we could call the *lines()* function)
 
+***
+###S7.5.5: Adjusting plotting parameters
 Hmm this is ok, BUT we notice that there are a lot of overlapping points. How about adding some transparency? Luckily we know how to do this already. Remember in processing how we could add transparency by adding an alpha channel to a rgb color? Looks a bit like this: (R, G, B, A), EXCEPT in R, we substitute 255 with 1. (R uses a 0 to 1 scale == to 0 to 255), weird, I know, but we have to roll with it ;)
 
 	# ---------- Making our plot more readable by adding transparency ---------- #
@@ -857,7 +942,7 @@ We introduced a few new plotting parameters here namely:
 * **col**: as you can see, we can change the color in a number of ways like specifying a color "red" or "green", for example or using RGB or we can use hex color codes.
 * **ann**: this stands for annotation. We set this to false here because we don't want R to automatically add the x and y axis labels since we will add them in later.
 
-
+###S7.5.6: adding a legend and axis labels
 To finish off this example, let's add a legend and a title and proper axis labels. 
 	
 	# a legend that includes our color coordination.
@@ -908,19 +993,23 @@ In R, we have countless numbers of libraries to help us to tasks. Remember earli
 
 SO to start, we need to **install** the package we want to use. After doing a few google serches, I found an R package called "maptools" that allows us to read shapefiles into R and also do some other cool things like make choropleth maps. 
 
+
+###S8.1: installing and adding a library
 We install packages in R by using the *install.packages()* function:
 
 	# ---------- Using our first R package to display a shapefile! ---------- #
 	# install the maptools library
-	install.packages("maptools")
+	install.packages("GISTools")
 
 After we install our R package, we need to import it to our script. We do so using the *library()* function:
 	
 	# import the maptools functions by calling the library() function
-	library(maptools)
+	library(GISTools)
 
 Now that we have our library imported, we have can read in some shapefiles that are conveniently sitting in our data folder. Similar to how we read in our .csv file, we just have to include the path name to each of our .shp files.
 
+***
+###S8.2: Reading in a shapefile
 Using the maptools library we can use the *readShapeSpatial()* function to read in our data:
 	
 	# read in our baselayer shapefules with the readShapeSpatial() function
@@ -933,6 +1022,8 @@ Now our data is loaded - which we can see in our global environment - and it is 
 
 ![](assets/img/globalenv-shp.png)
 
+***
+###S8.3: Plotting a shapefile
 **FIRST - Plot the vancity object:** First we want vancity to be our baselayer ontop of which we will put our points.
 
 	# plot the metrovancouver shapefile as our baselayer
@@ -950,6 +1041,8 @@ OK, so we've added some new plotting parameters. Nothing we can't handle. What a
 * **border**: we don't want a border color here, so we set it to FALSE
 * **bg**: stands for background. This is the color of the background which we set to black here.
 
+***
+###S8.4: Plotting another shapefile on top of that shapefile
 Having the metor vancouver boundaries is nice, but how about adding some of the parcel boundaries to give us a nice effect of the roads and their road width. 
 
 	# plot the parcels as our faux-street effect
@@ -960,6 +1053,8 @@ Having the metor vancouver boundaries is nice, but how about adding some of the 
 
 We also see a new parameter called **add=TRUE** - This allows us to add our parcel plot **ontop of the vancity plot**. 
 
+***
+###S8.5: Synthesis
 Now we will add our points on top of the map:
 	
 	#autotheft
@@ -1000,6 +1095,7 @@ Now we will add our points on top of the map:
 
 And maybe in the end showing all the points together doesn't make so so much sense... how about small multiples? 
 
+###S8.7: Turning a dataframe with geocoordinates into a shapefile
 **Before we end** let's **export our crime data to a shapefile**:
 
 Using the maptools's function *SpatialPointsDataFrame()*, we can convert our crime dataframe to a shapefile, but to do so, we need to know what parameters are this function takes to go **from dataframe** to **SpatialPointsDataFrame**.
@@ -1026,6 +1122,8 @@ Lastly, we can "write" our **crime_spatial** object out to a shapefile using the
 
 Now check your folder and see that now you have a .shp file of your crime data there! 
 
+***
+###S8.8: Making the crime map more readable - using small multiples
 
 As a first independent exercise, how about you take the code from above and tweak it to make individual maps of the 3 crime classes as we see below - change the colors, the type of points, the background and parcel colors. 
 
@@ -1046,6 +1144,8 @@ Notice how it is much easier to decipher where each of the crimes is occuring? T
 * Installing and adding R packages
 * Using new functions from imported R packages
 
+
+***
 #S10: What have we done?
 
 * You know know how to read different types of data into R
@@ -1054,33 +1154,81 @@ Notice how it is much easier to decipher where each of the crimes is occuring? T
 	* THIS IS SUPER KEY: you made a decision about what types of data (e.g. crimes) were related and **aggregated** them into a related group so that it is easier for our brains to understand. In this case you grouped the crime types so that instead of having to visualize 7 different types of crime, we can instead visualize 3. 
 	* Remember this: "Overview first, details on demand" - we start our data viz story with the overview - here's the 3 major classes of crimes happening in Vancovuer spatially. What about temporally? The next steps of the data viz pipeline are to dive in an start pulling out more info about what's going on. For now, well done, you've started to peak the viewers interest ;)
 
+
 ***
+#S11: Matrices & Rasters
+
+We don't get into matrices and rasters here but given what you've seen and learned today, you can imagine that doing raster manipulation in R is totally possible. What to make a hillshade or do raster statistics, you most definitely can! Oh the joys of programming! 
 
 
-## Matrices & Rasters
+***
+#S12 Revisiting our Crime Example:
 
+As mentioned before, there are tons of packages out there that can take complex algorithms and make them available as simple to use functions. In the example below here's what's happening:
 
+* we install and import the "MASS" package
+* we use the 2D kernal density function which takes the density of points and creates a raster from the density of points. 
+* we plot the background of vancouver
+* we use the **contour()** function to plot the contour lines of the density of crimes in vancouver - we can see that the highest density is in downtown.
+* we use the **persp()** function to view the raster matrix in 3D. 
 
-
-
-## Revisiting our Crime Example:
-
-	require(MASS)
-	dens = kde2d(crime$lon, crime$lat, n=100)
+		install.packages("MASS")
+		require(MASS)
+		dens = kde2d(crime$lon, crime$lat, n=100)
+		
+		plot(vancity, 
+	     xlim=c(-123.27, -123.0), 
+	     ylim = c(49.25, 49.26), 
+	     col="white", 
+	     border="grey", 
+	     bg="#FFFFFF")
 	
-	plot(vancity, 
-     xlim=c(-123.27, -123.0), 
-     ylim = c(49.25, 49.26), 
-     col="white", 
-     border="grey", 
-     bg="#FFFFFF")
-
-	contour(dens, levels = c(0,10, 25, 50, 100, 200, 500, 800), add=T)
-	
-	# enter the third dimension
-	persp(dens, expand=0.3, theta =0, phi=75, box=F, shade=0.75)
+		contour(dens, levels = c(0,10, 25, 50, 100, 200, 500, 800), add=T)
+		
+		# enter the third dimension
+		persp(dens, expand=0.3, theta =0, phi=75, box=F, shade=0.75)
 
 ![](assets/img/kernal-density-plot.png)
+
+
+#S13 Future Directions with R:
+
+We've only skimmed the surface of the capabilities of programming and in this case what we can do with R. 
+
+##S13.1: Leaflet for R
+
+<img src="assets/img/leafletr.png">
+
+One cool thing to check out is the [leaflet package for R](https://rstudio.github.io/leaflet/) which takes your R code and translates it into javascript for making interactive web maps...
+
+	# install the leaflet package
+	devtools::install_github("rstudio/leaflet")
+	
+	# read in th library 
+	library(leaflet)
+
+	# initialize leaflet as an object called "m"
+	m = leaflet()
+	
+	# add "map tiles" to your map object
+	m <- addTiles(m)
+	
+	 
+	# Add a marker to the map with these lat long coordinates
+	m <- addMarkers(m, lng=-123.256157, lat=49.266025, popup="The coolest department at UBC")
+	
+	# visualize the map
+	m
+
+***
+## S13.2: GGPLOT2 & others
+
+<img src="http://spatialanalysis.co.uk/wp-content/uploads/2012/02/bike_ggplot-1024x676.png">
+
+<img src="https://learnr.files.wordpress.com/2010/01/nba_heatmap_revised.png?w=600">
+There are other data visualization packages that are must-sees like
+[ggplot](http://ggplot2.org/)
+
 
 
 # References:
