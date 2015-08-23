@@ -386,13 +386,7 @@ You'll notice when you  save your "sketch" the file type will be added to the en
 
 <center> <em>Let's learn more! </em> </center>
 
-<br>
 ***
-<br>
-
-
-
-
 #S6: Fundamentals
 
 ##S6.1: Structure
@@ -1532,9 +1526,16 @@ As some motivation, here's what a few students have made at **NYU's ITP** during
 <img src="http://www.whatthebagel.com/wp-content/uploads/2013/09/ICM_Week1_GeometricBloom.png">
 <center> Michelle Lin, Geometric Bloom (http://www.whatthebagel.com/2013/09/09/week-1-geometric-bloom/)</center>
 
-<img src="http://s5884.com/itp/files/2013/09/Assignment-1.png">
-<center> Seiya Kobayashi, Portrait (http://s5884.com/itp/2013/09/10/drawing-a-portrait-on-processing/)</center>
+<img src="https://cjsantamaria.files.wordpress.com/2013/09/dandelion.png">
+<center> CJ Santa Maria, Dandelion (https://cjsantamaria.wordpress.com/2013/09/10/dandelion-via-processing/)</center>
 
+
+<img src="assets/img/orchid.png">
+<center>Jiwon Yoon, Orchid (http://www.jiwonyoonworks.com/?p=29)</center>
+
+
+<img src="assets/img/joeyProuns.png">
+<center> Joey Lee, my first procesing sketch - copying El Lissitsky's PROUN drawing</center>
 
 (At the end, we'll all go around to see what we've all made)
 
@@ -1573,13 +1574,14 @@ As some motivation, here's what a few students have made at **NYU's ITP** during
 ## Endless learning
 There's so much more to learn and so much cool stuff we haven't yet done with data! Throughout the course I hope you can reference back to this workshop as you learn more about Processing and as a way to help you understand some of the other tools we will be using like R or Mapbox Studio, and others. 
 
-With what you've learned today, you're not so far off from learning how to start visualizing data in Processing. With some practice and perseverence you'll, I hope you can start making things like this:
+With what you've learned today, you're not so far off from learning how to start visualizing data in Processing. With some practice and perseverence you can start making things like this:
 
 ![](assets/img/population-01.png)
 
 or this (using the Unfolding Library):
 
 ![](assets/img/Unfolding-example-01.png)
+
 
 ## P5.js
 I have to mention P5.js which is the javascript library inspired by Processing not only because it is super cool, but because I, along with many others, believe the age of the web is here!  P5.js is a javascript library that takes the soul of Processing and implements it in javascript meaning that you can sketch with code using web technologies (html, css, & javascript). I would argue that the syntax is friendlier and is more flexible in terms of sharing your work. Besides the fact that the browser can crash if you send it a ton of data, P5.js may be an interesting way to move out of your desktop and onto the web.
