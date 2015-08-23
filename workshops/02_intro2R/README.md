@@ -1,27 +1,55 @@
-# Pirates code in R:
+# An intoduction to R:
 
 ## About
 This is an intro to the R programming language which we will use throughout the rest of the course and hopefully you'll use when you leave UBC and start working!
 
-## Why are we learning R?
-
-Why are we using R after spending all that time learning Processing? Well, first I would go back to the fact that programming languages are like materials, each with a distinct qualities, benefits, and limitations. In this way, it doesn't make sense to say one language is better or worse than another, rather that  they are just different. So why learn R? Here's why I chose to introduce R in this course:
-
-* **High Level Programming Language**: R is what we consider a high level programming language. With a few lines of code, you can do *a lot* of stuff which is super nice when we're learning.
-* **Easy to setup and has a nice Integrated Development Environment** (IDE): R is nice because it sort of lives within itself - it is easy to download, install, and setup, it is cross platform (it can be used in Windows, Mac OS, etc), and has a nice IDE called RStudio which we will use to help us write our code.
-* **Large user community**: Like Processing, R has a HUGE user community that has grown to include domains of all sorts. This means also if you have a specific question that most likely someone has already found the answer and posted it online. The New York Times Data team is using R (among other things), for example! 
-* **Super handy packages**: Because of the large user community people have developed packages for doing all sorts of cool things. Want to make an interactive map? Bam! There's an R package for that. Want to make a hillshade of a DEM in R? There's a package for that too! You'll start to see that packages will be your best friend, so use your favorite search engine and find the right packages for you!
-* **Nice plots**: R kicks ass for plotting - and this is a data visualization class after all. With one line of code you can already start looking at your data, add a few more and you already have something pretty to look at. As a way of exploring and displaying your data, R is a nice way to go. 
-* **Local expertise**: Its always handy to have people around to help you if you get stuck. There are plenty of people teaching R at UBC and also some expert grad students and faculty in Geography. 
-* **Open source mapping**: When we dive further into R we'll start to see that we can start to do some really fancy geoprocessing in R. When you leave UBC and no longer have access to proprietary software, you'll be happy to know that you have the tools to continue mapping away. 
-
-## Requirements:
-
-* First: download and install R
-* Second: download and install R studio (make sure to install R first!)
-
 ## Outline
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
+    - [Getting Comfy:](#getting-comfy)
+  - [S1: Why are we learning R?](#s1-why-are-we-learning-r)
+  - [S2: Requirements:](#s2-requirements)
+- [S3 Getting Started](#s3-getting-started)
+  - [S3.1 R Studio IDE:](#s31-r-studio-ide)
+  - [S3.2 Focus Things:](#s32-focus-things)
+- [S4 "Hello World!"](#s4-hello-world)
+  - [S4.1:Comments](#s41comments)
+  - [S4.3:Printing](#s43printing)
+- [S5: Math](#s5-math)
+  - [S5.1:Mathematical operators in R](#s51mathematical-operators-in-r)
+    - [S5.1.1: Addition](#s511-addition)
+    - [S5.1.3: Substraction](#s513-substraction)
+    - [S5.1.4: Multiplication](#s514-multiplication)
+    - [S5.1.5:Division](#s515division)
+    - [S5.1.6:Exponentation](#s516exponentation)
+  - [S5.2:Logical Operators in R](#s52logical-operators-in-r)
+    - [S5.2.1: Greater than](#s521-greater-than)
+    - [S5.2.2:Less than](#s522less-than)
+    - [S5.2.3: Is equal to](#s523-is-equal-to)
+    - [S5.2.4:does not equal](#s524does-not-equal)
+- [S6: Variables](#s6-variables)
+    - [S6.1: Addition](#s61-addition)
+    - [S6.2: Multiplication](#s62-multiplication)
+- [S7 Data & Plotting](#s7-data-&-plotting)
+  - [S7.1 Vectors](#s71-vectors)
+  - [S7.2: Lists](#s72-lists)
+  - [S7.3 Dataframes](#s73-dataframes)
+  - [S7.4 Reading data in as a dataframe](#s74-reading-data-in-as-a-dataframe)
+  - [S7.5 Exploring Vancouver Crime Data](#s75-exploring-vancouver-crime-data)
+- [S8: Enter, the R packages:](#s8-enter-the-r-packages)
+  - [Whew! We've done ALOT. Take a big deeeeep breath, get a snack, maybe some banana bread with chocolate chips, and come back ready to learn more.](#whew-weve-done-alot-take-a-big-deeeeep-breath-get-a-snack-maybe-some-banana-bread-with-chocolate-chips-and-come-back-ready-to-learn-more)
+- [S9: What's new in our data viz toolbelt?](#s9-whats-new-in-our-data-viz-toolbelt)
+- [S10: What have we done?](#s10-what-have-we-done)
+  - [Matrices & Rasters](#matrices-&-rasters)
+  - [Revisiting our Crime Example:](#revisiting-our-crime-example)
+- [References:](#references)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+<!--
 ### Getting Comfy:
 1. R ( and computer languages in general) are like more awesome calculators:
 	+ basic math operations between single numbers
@@ -45,13 +73,33 @@ Why are we using R after spending all that time learning Processing? Well, first
 
 4. Control structures / Loops
 
+-->
 
-# Getting Started
+
+##S1: Why are we learning R?
+
+Why are we using R after spending all that time learning Processing? Well, first I would go back to the fact that programming languages are like materials, each with a distinct qualities, benefits, and limitations. In this way, it doesn't make sense to say one language is better or worse than another, rather that  they are just different. So why learn R? Here's why I chose to introduce R in this course:
+
+* **High Level Programming Language**: R is what we consider a high level programming language. With a few lines of code, you can do *a lot* of stuff which is super nice when we're learning.
+* **Easy to setup and has a nice Integrated Development Environment** (IDE): R is nice because it sort of lives within itself - it is easy to download, install, and setup, it is cross platform (it can be used in Windows, Mac OS, etc), and has a nice IDE called RStudio which we will use to help us write our code.
+* **Large user community**: Like Processing, R has a HUGE user community that has grown to include domains of all sorts. This means also if you have a specific question that most likely someone has already found the answer and posted it online. The New York Times Data team is using R (among other things), for example! 
+* **Super handy packages**: Because of the large user community people have developed packages for doing all sorts of cool things. Want to make an interactive map? Bam! There's an R package for that. Want to make a hillshade of a DEM in R? There's a package for that too! You'll start to see that packages will be your best friend, so use your favorite search engine and find the right packages for you!
+* **Nice plots**: R kicks ass for plotting - and this is a data visualization class after all. With one line of code you can already start looking at your data, add a few more and you already have something pretty to look at. As a way of exploring and displaying your data, R is a nice way to go. 
+* **Local expertise**: Its always handy to have people around to help you if you get stuck. There are plenty of people teaching R at UBC and also some expert grad students and faculty in Geography. 
+* **Open source mapping**: When we dive further into R we'll start to see that we can start to do some really fancy geoprocessing in R. When you leave UBC and no longer have access to proprietary software, you'll be happy to know that you have the tools to continue mapping away. 
+
+##S2: Requirements:
+
+* First: download and install [R](http://cran.stat.sfu.ca/)
+* Second: download and install [R studio](https://www.rstudio.com/products/RStudio/#Desktop) (make sure to install R first!)
+
+
+#S3 Getting Started
 
 Throughout this workshop, try your best to make connections between what you learned in the intro to Processing to what R has to offer. There are some fundamental differences you will begin to notice, but you'll really quickly begin to see the advantages (and disadvantages) of using R. 
 
 
-## R Studio IDE:
+##S3.1 R Studio IDE:
 
 This is the R studio IDE. We will use R studio as our environment for running our code, making our scripts, and viewing our plots. It's sort of like our Processing PDE, with the major difference being that R is an ***interpreted*** language meaning we can run our code line-by-line versus Processing which is ***compiled*** which means Processing runs all of the code at once. You'll see why this is advantages for working with and exploring data. Anyways, because of this key difference, R studio is setup to help us explore our data line-by-line.
 
@@ -65,15 +113,15 @@ Your typical R studio IDE will look like the above and includes:
 * **Plot, Packages, Help, & more**: Your plots will be shown here. Also you will be able to find packages and access R's help documentation.
 
 
-## Focus Things:
+##S3.2 Focus Things:
 + Print everything - check that things are working and see how you change and manipulate data with functions and operations.
 + Plot everything - again, check that things are working and see how you change and manipulate data with functions and operations.
 + Help your classmates and friends - these will be the people you work with in the future - this is your network! The stronger you guys are and closer you are, the better connections you'll have. 
 + (on the above point) the success of this workshop will be how the group collectively grows and learns so work together!  
 
-## "Hello World!"
+#S4 "Hello World!"
 
-**Comments**
+##S4.1:Comments
 
 Remember in Processing we used the double forward slashes "//" to make comments for lines of text in our program that we don't want the computer to interpret? Well, R has it's own way of making comments which is the hash "#". 
 
@@ -87,7 +135,7 @@ So let's start our journey into R with a comment saying, "Today I'm going to lea
 Cool! So now you know how to make comments in R. These will be handy to remind yourself of the things you've learned and keep track of the flow of your program. 
 
 
-**Printing**
+##S4.3:Printing
 
 The first thing we're going to do is print the classic "hello world!" statement from our **script** window. To practice using comments, let's first make a comment saying, "here's my first conversation with R"
 
@@ -126,11 +174,11 @@ Run this and see that it return the same thing! Pretty neat stuff.
 
 Now that you see how to run code line-by-line, let's dive further into some more exciting stuff.
 
-## Math
+#S5: Math
 
 Oh la la, everyone's favorite subject: math! If you remember back to the Processing workshop, the mathematical operators allowed us to start doing some really cool stuff with our visuals. While most of the mathematical operators are the same, let's check out those mathematical operators in R again.
 
-**Mathematical operators in R**
+##S5.1:Mathematical operators in R
 
 	Operator		Description
 	+				addition
@@ -142,7 +190,59 @@ Oh la la, everyone's favorite subject: math! If you remember back to the Process
 	x %/% y			integer division 5%/%2 is 2
 
 
-**Logical Operators in R**
+
+See, not so different from what we already know. We added a few changes and new operators like the **exponentation** and the **modulo which takes two %%**. In any case, let's run a few of them to get warmed up.
+
+Run each of these statements in your script window and see what pops up in the console. But first, let's make a comment in our code showing that this is going to be for math practice!
+
+	# ---------- Practice Make Perfect, especially for Math ---------- #
+
+
+###S5.1.1: Addition
+	
+	# here's an example of addition
+	3 + 5  
+
+###S5.1.3: Substraction
+
+	# Simple subtraction
+	145632 - 67424
+
+Why the big numbers? well, just to show you how easy it is for the computer to calculate these numbers!
+
+You should be seeing the console output :)
+
+###S5.1.4: Multiplication
+
+	# Fancy Multiplication
+	6*5
+	
+	# some more fancy multiplication
+	6 * 5 * 3 * 2
+	
+	# and even more fancy multiplication
+	(5 * 2) * 3 * 6
+
+###S5.1.5:Division
+
+	# Simple Division
+	50 / 5
+	
+	# More Division
+	50 / (3/4)
+
+###S5.1.6:Exponentation
+
+	# An exponent: method 1
+	10**2
+	
+	# Exponents: method 2
+	10^2
+
+
+Now you know the rest. Let's try some of the logical operators.
+
+##S5.2:Logical Operators in R
 
 	Operator		Description
 	<				less than
@@ -156,61 +256,11 @@ Oh la la, everyone's favorite subject: math! If you remember back to the Process
 	x & y			x AND y
 	isTRUE(x)		test if X is TRUE
 
-
-See, not so different from what we already know. We added a few changes and new operators like the **exponentation** and the **modulo which takes two %%**. In any case, let's run a few of them to get warmed up.
-
-Run each of these statements in your script window and see what pops up in the console. But first, let's make a comment in our code showing that this is going to be for math practice!
-
-	# ---------- Practice Make Perfect, especially for Math ---------- #
-
-
-**Addition**
-	
-	# here's an example of addition
-	3 + 5  
-
-**Substraction**
-
-	# Simple subtraction
-	145632 - 67424
-
-Why the big numbers? well, just to show you how easy it is for the computer to calculate these numbers!
-
-You should be seeing the console output :)
-
-**Multiplication**
-
-	# Fancy Multiplication
-	6*5
-	
-	# some more fancy multiplication
-	6 * 5 * 3 * 2
-	
-	# and even more fancy multiplication
-	(5 * 2) * 3 * 6
-
-**Division**
-
-	# Simple Division
-	50 / 5
-	
-	# More Division
-	50 / (3/4)
-
-**Exponentation**
-
-	# An exponent: method 1
-	10**2
-	
-	# Exponents: method 2
-	10^2
-
-
-Now you know the rest. Let's try some of the logical operators. Again, let's make a comment showing this new section:
+Again, let's make a comment showing this new section:
 
 	# ---------- Logical Operators in R ---------- #
 
-** Greater than **
+###S5.2.1: Greater than 
 	
 	# greater than 
 	10 > 3
@@ -220,7 +270,7 @@ Now you know the rest. Let's try some of the logical operators. Again, let's mak
 
 Oooh, see how the console prints TRUE or FALSE? This is a good sign! 
 
-** Less than **
+###S5.2.2:Less than 
 
 	# less than
 	3 < 10
@@ -228,7 +278,7 @@ Oooh, see how the console prints TRUE or FALSE? This is a good sign!
 	# less than
 	10 < 3
 
-** Is equal to **
+###S5.2.3: Is equal to
 
 	# is equal to
 	5 == 5
@@ -236,7 +286,7 @@ Oooh, see how the console prints TRUE or FALSE? This is a good sign!
 	# is equal to
 	5 == 6
 
-** does not equal **
+###S5.2.4:does not equal
 
 	# is not equal to
 	5 != 6
@@ -246,11 +296,11 @@ Oooh, see how the console prints TRUE or FALSE? This is a good sign!
 
 Ok ok, so we get the idea, we've seen this all before. How about getting into some variables? Ain't no thang. Let's do this!
 
-## Variables
+#S6: Variables
 
 So we know how powerful variables are for programming. Let's check out how R handles variables. As always, let's start with an example.
 
-** Addition **
+###S6.1: Addition
 	
 	# ---------- Working with Variables: Addition ---------- #
 	# Let's declare a variable called "weather" and assign it to the value of 1
@@ -267,7 +317,7 @@ If you got 9, then you're totally crushing this tutorial! **NOTICE: we don't hav
 
 Let's look at another example. Remember the example of Joey's enthusiasm from the Processing workshop? Here's the same thing but in R.
 
-**Multiplication**
+###S6.2: Multiplication
 
 	# ---------- Working with Variables: Multiplication ---------- #
 	# Let's declare a variable called "joeysEnthusiasm" and assign it to the value of 1
@@ -281,7 +331,7 @@ So you may have noticed in your **Global Environment** a few things have popped 
 
 ![](assets/img/globalenv-1.png)
 
-## Data & Plotting
+#S7 Data & Plotting
 
 Ok, so here's where things are going to get *very* interesting for us. Enter: data & plotting. In the Processing workshop we learned that "data could be anything from the time of day, the location of a bus stop, the color of your hair, and even the location of your mouse on the screen and the keys you pressed to login to your email. In general, data often consists of measurements of physical characteristics whether it be a digital photo of your dog or the precipitation in Vancouver." 
 
@@ -291,7 +341,7 @@ If you haven't noticed by now, soon you will see that one of the keys to underst
 
 Blah blah blah, Let's start from the beginning. Oh and stay with me, because we're going to introduce the *plot()* function so you can start visualizing your data! 
 
-### Vectors
+##S7.1 Vectors
 
 Here's the bread and butter of R programming and data handling - the vector. An R vector is basically a collection of elements of the same datatype (e.g  numeric, character, boolean.)
 
@@ -464,7 +514,7 @@ Again, the plots are basic looking now, but we're just getting fired up. Also, d
 
 But first, let's learn about the other R data types.
 	
-### Lists
+##S7.2: Lists
 
 So an R list is a collection of elements (similar to a vector) BUT the key difference is that **a list can contain different data types**. Lists can be created by using the *list()* function and filling in values to be stored in the list. Let's look at some examples here:
 
@@ -622,7 +672,7 @@ Cool so it prints out exactly what we would expect. **NOTICE** the use of the da
 Starting to see why it might be useful to pass data along variables? It may not be super clear now, but try to think about how you process geographic data. Often times, you might want to just take a subset of data by location or by the name of the city or census tract. By using the data selector and storing pieces of data to a new variable, you can only work on the pieces of data you want while preserving the original data!
 
 
-## Dataframes
+##S7.3 Dataframes
 
 A dataframe is essentially data in a tabular form (think an excel spreadsheet) - it is composed of rows and columns of equal length. Each column is a **vector**, meaning it contains all of the same data type (except for the header row) and is recursive, meaning that we can apply functions and mathematical operations on each column.  **Holy guacamole, does this mean R is really great at processing tabular data like excel sheets, csv files, and maybe even shapefiles? Yes!** That is exactly right! Let's learn about them!!
 
@@ -683,7 +733,7 @@ If you click on the little icon that looks like a data table, you will get a pre
 
 Nice! We just plotted our data directly pulled from our dataframe! Feeling the love yet? If yes, then get ready for more, if not, then let's try a **real-world data** example.
 
-### Reading data in as a dataframe
+##S7.4 Reading data in as a dataframe
 
 We've learned how to make our own data, but the reality is that we're going to be pulling in data generated from some process from somewhere in the world. This could be a table of anything such crime data, the available apartments for rent in Vancouver, or air pollution data. How do we bring this tabular data into R? We can use these table reading functions from [R](https://stat.ethz.ch/R-manual/R-devel/library/utils/html/read.table.html):
 
@@ -712,7 +762,7 @@ We've learned how to make our own data, but the reality is that we're going to b
 
 Whoa, we've got 5 different options and a whole slew of parameters we can use to add data in. In general, you will have to pick which function is most appropriate for your input data, but you will learn as you go on which function is right for your data. For now, we will use the **read.csv()** function to read in our data **because our input data in  this case is a comma-separated-values (.csv) file**. 
 
-**Exploring Vancouver Crime Data**
+##S7.5 Exploring Vancouver Crime Data
 
 In this example we're going to read in some data and plot the location of the different crimes.
 
@@ -846,7 +896,7 @@ And en fin, our graph looks like this:
 
 BUT wait wait wait, we just have a bunch of points on a graph, but no background or context. As map people we know this maps is just half baked. What could be do to fix this? **Add some contextual geo data behind it of course!**
 
-## Enter, the R packages:
+#S8: Enter, the R packages:
 
 R packages (aka libraries) may be one of the most useful things about R. Libraries are basically bundled up scripts that people (software developers, researchers, designers, artists, etc) have written to help take complicated tasks or computations, wrapped up in simple(r) to use functions to make programming easier, more fun, and easy to read. 
 
@@ -988,7 +1038,7 @@ Notice how it is much easier to decipher where each of the crimes is occuring? T
 <center><h2>Whew! We've done ALOT. Take a big deeeeep breath, get a snack, maybe some banana bread with chocolate chips, and come back ready to learn more.</h2> </center>
 
 ***
-## What's new in our data viz toolbelt?
+#S9: What's new in our data viz toolbelt?
 
 * Mathematical and logical operators in R
 * R vectors, lists, dataframes
@@ -996,7 +1046,7 @@ Notice how it is much easier to decipher where each of the crimes is occuring? T
 * Installing and adding R packages
 * Using new functions from imported R packages
 
-## What have we done?
+#S10: What have we done?
 
 * You know know how to read different types of data into R
 * You can successfully navigate tweaking visual parameters
@@ -1010,7 +1060,7 @@ Notice how it is much easier to decipher where each of the crimes is occuring? T
 ## Matrices & Rasters
 
 
-## 
+
 
 
 ## Revisiting our Crime Example:
