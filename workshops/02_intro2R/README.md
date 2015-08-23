@@ -357,7 +357,7 @@ So we know how powerful variables are for programming. Let's check out how R han
 	salmonWeather = salmon + weather
 	salmonWeather # this will print the value to the console
 	
-If you got 9, then you're totally crushing this tutorial! **NOTICE: we don't have to declare whether the variable is an integer or a floating type or any type in general!**  This is because R is **not a declarative language**. R makes an assumption or calculates what type of data will be returned from an expression. Love it or hate it, that's how R rolls!
+If you got 9, then you're totally crushing this tutorial! **NOTICE: we don't have to declare whether the variable is an integer or a floating type or any type in general!**  This is because R is **not a strongly typed language**. R makes an assumption or calculates what type of data will be returned from an expression. Love it or hate it, that's how R rolls!
 
 Let's look at another example. Remember the example of Joey's enthusiasm from the Processing workshop? Here's the same thing but in R.
 

@@ -743,7 +743,7 @@ What is data? Data could be anything from the time of day, the location of a bus
 
 Processing can store, modify, and manipulate many different kinds of data, including numbers, letters, words, colors, images, fonts, and boolean values (true, false).
 
-One of the key features of programming is the ability to store values and/or data to variables. Below are the main data types in Processing - and programming in general - and examples of how to store them to a variable in Processing. NOTE: Processing (the java version) is declarative and thus we must declare what the data type will be when assigning data to a variable. If this sounds crazy, have a look at the examples below :)
+One of the key features of programming is the ability to store values and/or data to variables. Below are the main data types in Processing - and programming in general - and examples of how to store them to a variable in Processing. NOTE: Processing (the java version) is strongly typed and thus we must declare what the data type will be when assigning data to a variable. If this sounds crazy, have a look at the examples below :)
 
 
 ## S7.1: data type: Numeric
